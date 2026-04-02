@@ -1,5 +1,5 @@
 // ============================================================
-// WREXX.AI — Master Google Apps Script
+// MORGOCK.AI — Master Google Apps Script
 // Go to script.google.com → New Project → paste this
 // Deploy → New Deployment → Web App
 //   Execute as: Me
@@ -80,6 +80,6 @@ function doPost(e) {
 
 function doGet(e) {
   return ContentService
-    .createTextOutput("Wrexx.ai Form API is live — Founded by Vishal Gautam")
+    .createTextOutput("morgock.ai Form API is live — Founded by Vishal Gautam")
     .setMimeType(ContentService.MimeType.TEXT);
 }
